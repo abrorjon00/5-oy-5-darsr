@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaqt hisoblagich</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Vaqt hisoblagich</h1>
+    <div id="timer">00:00:00</div>
+    <div class="buttons">
+      <button id="start">Boshlash</button>
+      <button id="stop">To'xtatish</button>
+      <button id="reset">Qayta boshlash</button>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <h1>Vazifa Ro'yxati</h1>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Vazifani kiriting...">
+      <button id="addTaskButton">Qo'shish</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+
+
+  <div class="container">
+    <h1>Ranglarni Moslashtirish O'yini</h1>
+    <p id="moves">Harakatlar: 0</p>
+    <div class="grid">
+      <!-- 9 ta bo'sh blok -->
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+    <p id="message" class="hidden">Tabriklaymiz! Siz o'yinni tugatdingiz!</p>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
